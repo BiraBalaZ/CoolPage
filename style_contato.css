@@ -1,0 +1,8 @@
+.container > ul {
+    list-style-type: none;
+    columns: 3;
+}
+
+footer#contato {
+    margin-top: 535px;
+}

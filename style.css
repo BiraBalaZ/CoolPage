@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+header {
+    background-image: linear-gradient(to bottom, #102c2e, #254E50);
+    padding: 1px;
+    color: #AECECF;
+    text-align: center;
+    /* position: fixed;
+    width: 100%; */
+}
+
+header > h1 {
+    font-family: "Rubik Mono One", monospace;
+    text-shadow: 2px 2px 20px black;
+    margin: 12px;
+}
+
+header nav {
+    padding-right: 30px;
+}
+
+header > nav > ul > li {
+    display: inline;
+    margin: 10px;
+}
+
+header > nav > ul > li:hover {
+    font-size: large;
+    transition: .4s;
+    background-color: #152f31;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+header > nav > ul> li > a {
+    color: #AECECF;
+}
+
+body {
+    background-color: #4D797A;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container p.center {
+    text-align: center;
+}
+
+.container > ul > li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #AECECF;
+    color: #0F3233;
+    border-radius: 7px;
+    box-shadow: 2px 2px 20px black;
+}
+
+main mark {
+    background-color: #619798f4;
+}
+
+main > h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main h2 {
+    padding-left: 5px;
+    background-image: linear-gradient(to right, #619798f4, transparent);
+}
+
+main > h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main a {
+    color: #0F3233;
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+div#image {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    padding: 1px;background-image: linear-gradient(to top, #102c2e, #254E50);
+    color: #AECECF;
+}
+
+footer > p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer a {
+    color: #AECECF;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
