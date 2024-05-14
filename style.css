@@ -92,6 +92,7 @@ main a {
 main > p {
     text-align: justify;
     text-indent: 20px;
+    line-height: 1.5em;
 }
 
 div#image {
