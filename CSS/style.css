@@ -95,6 +95,10 @@ main > p {
     line-height: 1.5em;
 }
 
+hr {
+    border-color: #0F3233;
+}
+
 div#image {
     text-align: center;
     padding: 10px;
