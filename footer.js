@@ -1,0 +1,1 @@
+document.write(`<p>Desenvolvido por <a href="github.com/BiraBalaZ">E.M.A. Productions</a> &copy; 2021 - ${new Date().getFullYear()} <br><a href="https://www.instagram.com/eriick.monteiro/">Instagram</a> ● <a href="https://www.linkedin.com/in/erick-monteiro-anjos-328b351b6/">LinkedIn</a></p>`)
